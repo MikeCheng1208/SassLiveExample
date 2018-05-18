@@ -19,7 +19,6 @@
     - nvm list available：查看有哪些 Node 版本可以裝
     - nvm install v8.11.2：安裝指定的 Node 版本
     - nvm use v8.11.2：指定 Node 版本
-    - nvm alias default v8.11.2：永久指定 Node 版本
 
 - Live Sass Compiler Setting
 ```

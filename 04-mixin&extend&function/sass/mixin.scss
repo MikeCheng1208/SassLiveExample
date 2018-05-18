@@ -1,0 +1,17 @@
+@mixin BoxSet($bgColor){
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: $bgColor;
+}
+.box1{
+    @include BoxSet(cadetblue);
+}
+.box2{
+    @include BoxSet(brown);
+}
+.box3{
+    @include BoxSet(burlywood);
+}

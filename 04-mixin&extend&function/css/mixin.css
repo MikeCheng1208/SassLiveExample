@@ -1,0 +1,26 @@
+.box1 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: cadetblue;
+}
+
+.box2 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: brown;
+}
+
+.box3 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: burlywood;
+}

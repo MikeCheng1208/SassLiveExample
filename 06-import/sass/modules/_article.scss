@@ -1,0 +1,18 @@
+article{
+    width: 70%;
+    height: 500px;
+    float: right;
+    background-color: #eca378;
+    text-align: center;
+    color: #fff;
+    line-height: 500px;
+    @media screen and (max-width: $mq1024) {
+        float: left;
+    }
+    @media screen and (max-width:$mq414) {      
+        float: left;
+        width: 100%;
+        height: 300px;
+        line-height: 300px;
+    }
+}

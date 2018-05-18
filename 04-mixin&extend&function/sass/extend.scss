@@ -1,0 +1,18 @@
+%BoxSet{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+}
+.box1{
+    @extend %BoxSet;
+    background-color: cadetblue;
+}
+.box2{
+    @extend %BoxSet;
+    background-color: brown;
+}
+.box3{
+    @extend %BoxSet;
+    background-color: burlywood;
+}

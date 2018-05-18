@@ -1,0 +1,22 @@
+.box{
+    width: 1000px + 500px;
+    height: 1000px - 200px;
+    margin-left: 20px * 5;
+    margin-right: (100px / 5);
+}
+
+
+
+$ww: 1000px;
+$hh: 253px;
+$s: 5;
+$t: 5px;
+.app{
+    width: $ww / 5;
+    height: (100% / 3);
+    margin-top: 5px + 10px / 3;
+    margin-left: $ww / $s;
+    // ----失敗-------------------------------
+    margin-right: 50px / 3px;
+    margin-right: $hh / $t;
+}

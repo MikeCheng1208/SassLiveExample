@@ -1,0 +1,12 @@
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #618d8a;
+    text-align: center;
+    color: #fff;
+    line-height: 200px;
+    @media screen and (max-width: $mq1024) {
+        height: 100px;
+        line-height: 100px;
+    }
+}

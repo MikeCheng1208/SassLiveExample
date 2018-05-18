@@ -1,0 +1,33 @@
+$titlefontSize: 26px;
+$textfontSize: 20px;
+$color1: red;
+$color2: #0000dd;
+$color3: #dd22d5;
+h1{
+    font-size: $titlefontSize;
+    color: $color1;
+}
+h2{
+    font-size: $titlefontSize;
+    color: $color1;
+}
+h3{
+    font-size: $titlefontSize;
+    color: $color2;
+}
+h4{
+    font-size: $textfontSize;
+    color: $color2;
+}
+h5{
+    font-size: $textfontSize;
+    color: $color3;
+}
+h6{
+    font-size: $textfontSize;
+    color: $color3;
+}
+*{
+    padding: 0;
+    margin: 0;
+}

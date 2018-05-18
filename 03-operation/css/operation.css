@@ -1,0 +1,15 @@
+.box {
+  width: 1500px;
+  height: 800px;
+  margin-left: 100px;
+  margin-right: 20px;
+}
+
+.app {
+  width: 200px;
+  height: 33.33333%;
+  margin-top: 8.33333px;
+  margin-left: 200px;
+  margin-right: 50px / 3px;
+  margin-right: 50.6;
+}

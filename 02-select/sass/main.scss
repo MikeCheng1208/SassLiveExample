@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "微軟正黑體", serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >a#btn{
+        color: #000;
+        font-size: 50px;
+        &.changeColor{
+            color: #00d;
+        }
+        &:hover{
+            color: #d00;
+        }
+    }
+}

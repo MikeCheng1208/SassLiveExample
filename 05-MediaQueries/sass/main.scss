@@ -1,0 +1,92 @@
+$mq1024: 1024px;
+$mq414: 414px;
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #618d8a;
+    text-align: center;
+    color: #fff;
+    line-height: 200px;
+    @media screen and (max-width: $mq1024) {
+        height: 100px;
+        line-height: 100px;
+    }
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #ebca88;
+    @media screen and (max-width: $mq1024) {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    > a{
+        display: block;
+        width: 25%;
+        height: 50px;
+        color: #fff;
+        float: left;
+        text-align: center;
+        line-height: 50px;
+        @media screen and (max-width: $mq1024) {
+            width: 50%;
+            height: 100px;
+            line-height: 100px;
+        }
+        @media screen and (max-width:$mq414) {
+            width: 50%;
+            height: 50px;
+            line-height: 50px;
+        }
+    }
+}
+aside{
+    width: 30%;
+    height: 500px;
+    float: left;
+    background-color: #9eaf8c;
+    text-align: center;
+    color: #fff;
+    line-height: 500px;
+    @media screen and (max-width: $mq1024) {
+        float: right;
+    }
+    @media screen and (max-width:$mq414) {
+        float: right;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+}
+article{
+    width: 70%;
+    height: 500px;
+    float: right;
+    background-color: #eca378;
+    text-align: center;
+    color: #fff;
+    line-height: 500px;
+    @media screen and (max-width: $mq1024) {
+        float: left;
+    }
+    @media screen and (max-width:$mq414) {      
+        float: left;
+        width: 100%;
+        height: 300px;
+        line-height: 300px;
+    }
+}
+footer{
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: #e46d69;
+    text-align: center;
+    color: #fff;
+    line-height: 100px;
+    @media screen and (max-width: $mq1024) {
+        height: 50px;
+        line-height: 50px;
+    }
+}

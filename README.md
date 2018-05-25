@@ -40,3 +40,6 @@
 ```
 - YouTube 頻道
     - https://www.youtube.com/c/ChengMike
+
+- 直播影片
+    -https://www.youtube.com/watch?v=Kp7B_3TrQjg
